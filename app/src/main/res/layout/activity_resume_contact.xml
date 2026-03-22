@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F7FBFF">
+
+    <TextView
+        android:id="@+id/txtTitreResume999"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Résumé des informations"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:id="@+id/txtContenuResume999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:lineSpacingExtra="5dp" />
+
+    <Button
+        android:id="@+id/btnRetourForm999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revenir au formulaire"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

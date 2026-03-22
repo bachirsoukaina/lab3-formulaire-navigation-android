@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFFDF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtEnteteForm999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formulaire Personnel"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/txtNomLabel999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom et prénom"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/champNom999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Soukaina Bachir"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtMailLabel999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse email"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/champMail999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : monemail@gmail.com"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtTelLabel999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Téléphone"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/champTel999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : +212612345678"
+            android:inputType="phone"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtAdresseLabel999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/champAdresse999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Avenue Hassan II"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/txtVilleLabel999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ville"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/champVille999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Marrakech"
+            android:inputType="textCapWords"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnAfficherResume999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afficher mon résumé"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
